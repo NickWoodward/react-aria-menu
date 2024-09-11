@@ -2,8 +2,8 @@ import { MobileMenu } from "./MobileMenu";
 
 export const Header = () => {
   return (
-    <div className="flex justify-between px-4">
-      <div className="">LOGO</div>
+    <div className="fixed w-full flex justify-between items-center px-4 h-[3rem] bg-slate-700">
+      <div className="text-slate-200">LOGO</div>
       <MobileMenu />
     </div>
   );
